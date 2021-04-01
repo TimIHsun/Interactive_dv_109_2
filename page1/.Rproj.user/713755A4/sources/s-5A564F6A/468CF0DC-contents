@@ -17,7 +17,7 @@ library(dplyr)
 library(htmltools)
 library(econR)
 .GlobalEnv$web <- econR::Web()
-web$foldername="docs2" # output folder name
+web$foldername="docs" # output folder name
 web$html_filename <- "index.html"
 
 ```
