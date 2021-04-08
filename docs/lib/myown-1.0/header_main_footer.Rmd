@@ -46,8 +46,8 @@ header <- tags$header(
 
 ```{r content_header}
 content_header <- tagList(
-  content_navbar,
-  content_sidenav
+  content_sidenav,
+  content_navbar
 )
 ```
 
@@ -64,7 +64,14 @@ content_navbar <- tagList(
         tags$li( tags$a(href="collapsible.html"," JavaScript"))
       )
     )
-  ),
+  )
+)
+```
+
+#### header: sidenav
+
+```{r content_sidenav}
+content_sidenav <- tagList(
   tags$ul(id="slide-out", class="sidenav", 
     tags$li( tags$div(class="user-view", 
       tags$div(class="background", 
@@ -81,14 +88,6 @@ content_navbar <- tagList(
     tags$li( tags$a(class="waves-effect", href="#!"," Third Link With Waves"))
   ),
   tags$a(href="#" , `data-target`="slide-out", class="sidenav-trigger", tags$i(class="material-icons"," menu"))
-)
-```
-
-#### header: sidenav
-
-```{r content_sidenav}
-content_sidenav <- tagList(
-  
 )
 ```
 
