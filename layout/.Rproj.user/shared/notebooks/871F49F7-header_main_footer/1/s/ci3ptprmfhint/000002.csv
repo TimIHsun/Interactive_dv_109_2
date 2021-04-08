@@ -1,0 +1,7 @@
+"0","html_complete <- "
+"0","  htmltools::tagList("
+"0","    html_placeholder,"
+"0","    web$htmlDependencies$materialise(),"
+"0","    local_jquery, "
+"0","    myDependency"
+"0","  )"

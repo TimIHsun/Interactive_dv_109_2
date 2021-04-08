@@ -1,0 +1,6 @@
+"0","layout_main <- tagList("
+"0","  tags$div("
+"0","    class = ""container"","
+"0","    list_plots$`price data`"
+"0","  )"
+"0",")"

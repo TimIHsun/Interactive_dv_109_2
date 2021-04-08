@@ -1,0 +1,8 @@
+"0","local_jquery <- "
+"0","  htmltools::htmlDependency("
+"0","    name=""jquery"","
+"0","    version=""3.5.1"","
+"0","    src=c(href = ""lib/jquery-3.5.1""),"
+"0","    # to use the same library here must use href, not filepath; otherwise, the current jquery system will be removed."
+"0","    script = c(""jquery.min.js"")"
+"0","  )"

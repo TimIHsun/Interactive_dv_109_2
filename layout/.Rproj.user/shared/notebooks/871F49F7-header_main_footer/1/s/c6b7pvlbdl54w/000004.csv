@@ -1,0 +1,7 @@
+"0","bodyTags <- {"
+"0","  htmltools::tagList("
+"0","    header,"
+"0","    main,"
+"0","    footer"
+"0","  )"
+"0","}"

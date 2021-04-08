@@ -63,12 +63,3 @@
 "1"," 0"
 "1","
 "
-"0","load(""inflation_plots.Rdata"")"
-"2","Registered S3 method overwritten by 'data.table':
-  method           from
-  print.data.table     
-"
-"2","Registered S3 method overwritten by 'htmlwidgets':
-  method           from         
-  print.htmlwidget tools:rstudio
-"

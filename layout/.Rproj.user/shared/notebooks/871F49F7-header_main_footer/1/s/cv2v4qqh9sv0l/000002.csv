@@ -1,0 +1,8 @@
+"0","headTags <- {"
+"0","  htmltools::tagList("
+"0","    htmltools::tags$link("
+"0","      href=""https://fonts.googleapis.com/icon?family=Material+Icons"","
+"0","      rel=""stylesheet"""
+"0","    )"
+"0","  )"
+"0","}"

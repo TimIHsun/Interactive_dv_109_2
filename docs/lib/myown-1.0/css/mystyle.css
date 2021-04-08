@@ -1,5 +1,8 @@
 body {
   font-family: "Noto Serif TC", sans-serif;
+  display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 /*
 body {
@@ -13,3 +16,9 @@ body {
   }
 
 */
+
+main {
+    flex: 1 0 auto;
+}
+
+
