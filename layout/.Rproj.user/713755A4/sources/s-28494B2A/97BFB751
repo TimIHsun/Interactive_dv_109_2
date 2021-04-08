@@ -3,7 +3,7 @@
     "path": "~/Documents/GitHub/Interactive_dv_109_2/layout/header_main_footer.Rmd",
     "project_path": "header_main_footer.Rmd",
     "type": "r_markdown",
-    "hash": "497676237",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1617866249998.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "176,35",
-        "scrollLine": "145"
+        "cursorPosition": "181,0",
+        "scrollLine": "178"
     },
     "folds": "150|29|168|0|\n",
-    "lastKnownWriteTime": 1617872880,
+    "lastKnownWriteTime": 1617872988,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1617872880369,
+    "last_content_update": 1617872988535,
     "read_only": false,
     "read_only_alternatives": []
 }

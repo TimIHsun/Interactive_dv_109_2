@@ -179,6 +179,7 @@ layout_columns <- tagList(
 )
 
 ```
+
 ```{r layout_main,drake=F}
 layout_main <- tagList(
   tags$div(
