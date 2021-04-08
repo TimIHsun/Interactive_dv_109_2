@@ -23,6 +23,7 @@ library(econR)
 .GlobalEnv$web <- econR::Web()
 web$foldername="docs" # output folder name
 web$html_filename <- "head_main_footer.html"
+load("inflation_plots.Rdata")
 
 ```
 
@@ -30,7 +31,6 @@ web$html_filename <- "head_main_footer.html"
 
 ```{r}
 xfun::download_file("https://www.dropbox.com/s/4gkv8cmqsmnq9hd/list_inflation_plots.Rdata?dl=1", mode="wb", output="inflation_plots.Rdata")
-load("inflation_plots.Rdata")
 ```
 
 
@@ -55,7 +55,32 @@ content_header <- tagList(
 
 ```{r content_navbar}
 content_navbar <- tagList(
-  
+    tags$nav( 
+    tags$div(class="nav-wrapper", 
+      tags$a(href="#", class="brand-logo center"," Logo"),
+      tags$ul(id="nav-mobile", class="left hide-on-med-and-down", 
+        tags$li( tags$a(href="sass.html"," Sass")),
+        tags$li( tags$a(href="badges.html"," Components")),
+        tags$li( tags$a(href="collapsible.html"," JavaScript"))
+      )
+    )
+  ),
+  tags$ul(id="slide-out", class="sidenav", 
+    tags$li( tags$div(class="user-view", 
+      tags$div(class="background", 
+        tags$img(src="https://cms.carrier.ntpu.edu.tw/uploads/8d03554e2e3a4f8dacbcad536cf70bfc.jpg")
+      ),
+      tags$a(href="#user", tags$img(class="circle", src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/NTPU_logo.svg/240px-NTPU_logo.svg.png")),
+      tags$a(href="#name", tags$span(class="white-text name"," John Doe")),
+      tags$a(href="#email", tags$span(class="white-text email", "jdandturk@gmail.com"))
+    )),
+    tags$li( tags$a(href="#!", tags$i(class="material-icons"," cloud"),"First Link With Icon")),
+    tags$li( tags$a(href="#!"," Second Link")),
+    tags$li( tags$div(class="divider"," ")),
+    tags$li( tags$a(class="subheader"," Subheader")),
+    tags$li( tags$a(class="waves-effect", href="#!"," Third Link With Waves"))
+  ),
+  tags$a(href="#" , `data-target`="slide-out", class="sidenav-trigger", tags$i(class="material-icons"," menu"))
 )
 ```
 

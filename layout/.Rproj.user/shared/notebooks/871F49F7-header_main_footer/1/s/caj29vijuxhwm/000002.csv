@@ -4,4 +4,5 @@
 "0",".GlobalEnv$web <- econR::Web()"
 "0","web$foldername=""docs"" # output folder name"
 "0","web$html_filename <- ""head_main_footer.html"""
+"0","load(""inflation_plots.Rdata"")"
 "0",""
