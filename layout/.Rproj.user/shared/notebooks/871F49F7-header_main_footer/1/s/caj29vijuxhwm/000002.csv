@@ -1,0 +1,7 @@
+"0","library(dplyr)"
+"0","library(htmltools)"
+"0","library(econR)"
+"0",".GlobalEnv$web <- econR::Web()"
+"0","web$foldername=""docs"" # output folder name"
+"0","web$html_filename <- ""head_main_footer.html"""
+"0",""

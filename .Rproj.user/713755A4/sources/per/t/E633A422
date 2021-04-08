@@ -1,0 +1,28 @@
+{
+    "id": "E633A422",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1617270153108.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "id": "25ecae50ff544b4ebcbb608c9edef428",
+        "name": "web",
+        "title": "web",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1617269815,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1617270153108,
+    "read_only": false,
+    "read_only_alternatives": []
+}
